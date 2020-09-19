@@ -23,7 +23,7 @@ This dataset is a Covid-19 Dataset given as three parts:
     * This is the test data on which accuracy of the model will be computed. It also contains Time Series data of Foreign Visitors to be used for Part – 02
     
 **Variables Description**
-![Variable Description](/image/variable_desc.PNG)
+![Variable Description](/Prediction_plot/variable_desc.PNG)
 
 ### Data Review
 
@@ -77,7 +77,7 @@ Two types of null values are present:
 
 **Correlation Matrix comparison before the preprocessing and after the preprocessing**
 
-![Correlation Matrix comparison](/image/corr_comp.png)
+![Correlation Matrix comparison](/Prediction_plot/corr_comp.png)
 
 ### **Population Growth Rate Computation**
 
@@ -133,23 +133,23 @@ The monthly covid cases was found from the train data, it was highly correlated 
 
 1) Linear Regression: Linear regression is used at the starting to model the relationship between independent and dependent attributes by fitting the linear equation. As Number of independent attributes are more in a given dataset, the model doesn’t fit well.
 
-![Linear Regression PART 01](/image/LR_model.PNG)
+![Linear Regression PART 01](/Prediction_plot/LR_model.PNG)
   
 2) Decision Tree: The given training dataset is multi-dimensional data. The decision tree is used to predict COVID cases with multiple information across various branches. This could be relatively inaccurate and unstable when additional data is given to predict.
 
-![Decision Tree Regression PART 01](/image/D_Tree_model.PNG)
+![Decision Tree Regression PART 01](/Prediction_plot/D_Tree_model.PNG)
 
 3) Random forest classification: RandomForest classifier aims to overcome the issues of Decision tree algorithm and to obtain accurate results. Since this is an ensembling learning model by constructing a multitude of the decision tree, effective results are achieved. Complexity is more.
 
-![Random Forest Tree Regression PART 01](/image/RandomForest_model.PNG)
+![Random Forest Tree Regression PART 01](/Prediction_plot/RandomForest_model.PNG)
                      
 4) AdaBoost Regressor: The AdaBoost classifier is chosen to improve accuracy by adjusting the weights iteratively. But Overfitting occurs as the major issue in this case.
 
-![AdaBoost Regression PART 01](/image/AdaBoost_model.PNG)
+![AdaBoost Regression PART 01](/Prediction_plot/AdaBoost_model.PNG)
      
 5) Gradient Boosting Model: The Gradient boosting algorithm is chosen to improve accuracy because of powerful ensembling techniques from weaker algorithms. 
 
-![Gradient Boosting Regression PART 01](/image/GradientBoost_model.PNG)
+![Gradient Boosting Regression PART 01](/Prediction_plot/GradientBoost_model.PNG)
 
 6) MLP Regression: The neural network approach is implemented with Multi-Layer Perceptron. Regularisation is done to avoid the overfitting issue.
 
