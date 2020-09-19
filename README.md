@@ -1,1 +1,0 @@
-# Prediction-of-Covid-cases
