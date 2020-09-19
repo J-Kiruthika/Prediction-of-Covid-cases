@@ -153,5 +153,5 @@ The monthly covid cases was found from the train data, it was highly correlated 
 
 6) MLP Regression: The neural network approach is implemented with Multi-Layer Perceptron. Regularisation is done to avoid the overfitting issue.
 
-![MLP Regression PART 01](/image/MLP_model.PNG)
+![MLP Regression PART 01](/Prediction_plot/MLP_model.PNG)
 
